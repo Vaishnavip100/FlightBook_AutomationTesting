@@ -47,26 +47,11 @@ public class FlightListPage extends BasePage {
         click(firstRowChooseBtn);
     }
     
-//    public String selectFirstFlightAndGetPrice() {
-//        waitForVisibility(By.xpath("//table[@class='table']//tbody/tr"));
-//        List<WebElement> rows = driver.findElements(By.xpath("//table[@class='table']//tbody/tr"));
-//        WebElement row=rows.get(0);
-//        String price=row.findElement(By.xpath("td[6]")).getText();
-//        price=price.replace("$", "").trim();
-//
-//        row.findElement(By.xpath("td[1]/input")).click();
-//
-//	     wait.until(driver -> driver.getCurrentUrl().contains("purchase") && driver.getPageSource().contains("Your flight"));
-//
-//     return price;
-//    }
-    
     public String selectFlightByAirline(String airlineName) {
         waitForVisibility(flightRows);
         List<WebElement> rows=driver.findElements(flightRows);
 
         for (WebElement row : rows) {
-
             String airlineText=row.findElement(By.xpath("td[3]")).getText();
             if (airlineText.equalsIgnoreCase(airlineName)) {
                 String price=row.findElement(By.xpath("td[6]")).getText().replace("$", "").trim();
@@ -75,7 +60,6 @@ public class FlightListPage extends BasePage {
                 return price;
             }
         }
-
         throw new RuntimeException("Airline not found: " + airlineName);
     }
     
