@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-23T21:17:23 IST" name="FlightBookingSuite" finished-at="2026-04-23T21:18:03 IST" duration-ms="40217">
+    <groups>
+    </groups>
+    <test started-at="2026-04-23T21:17:23 IST" name="Flight Search Tests" finished-at="2026-04-23T21:17:37 IST" duration-ms="14004">
+      <class name="tests.FlightSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:23 IST" name="setUp" finished-at="2026-04-23T21:17:28 IST" duration-ms="5038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFlightDetailsInEachRow()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:28 IST" name="verifyFlightDetailsInEachRow" finished-at="2026-04-23T21:17:30 IST" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightDetailsInEachRow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:30 IST" name="tearDown" finished-at="2026-04-23T21:17:30 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:30 IST" name="setUp" finished-at="2026-04-23T21:17:33 IST" duration-ms="2733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFlightSearchResults()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:33 IST" name="verifyFlightSearchResults" finished-at="2026-04-23T21:17:34 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearchResults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:34 IST" name="tearDown" finished-at="2026-04-23T21:17:35 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:35 IST" name="setUp" finished-at="2026-04-23T21:17:37 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySameCityNotAvailableInDropdown()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:37 IST" name="verifySameCityNotAvailableInDropdown" finished-at="2026-04-23T21:17:37 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySameCityNotAvailableInDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSearchTest@46d59067]" started-at="2026-04-23T21:17:37 IST" name="tearDown" finished-at="2026-04-23T21:17:37 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightSearchTest -->
+    </test> <!-- Flight Search Tests -->
+    <test started-at="2026-04-23T21:17:23 IST" name="Flight Selection Tests" finished-at="2026-04-23T21:17:40 IST" duration-ms="16651">
+      <class name="tests.FlightSelectionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:23 IST" name="setUp" finished-at="2026-04-23T21:17:28 IST" duration-ms="5025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFlightDetailsDisplayed()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:28 IST" name="verifyFlightDetailsDisplayed" finished-at="2026-04-23T21:17:30 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightDetailsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:30 IST" name="tearDown" finished-at="2026-04-23T21:17:30 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:30 IST" name="setUp" finished-at="2026-04-23T21:17:32 IST" duration-ms="1947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNavigationToPurchasePage()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:32 IST" name="verifyNavigationToPurchasePage" finished-at="2026-04-23T21:17:35 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToPurchasePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:35 IST" name="tearDown" finished-at="2026-04-23T21:17:35 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:35 IST" name="setUp" finished-at="2026-04-23T21:17:37 IST" duration-ms="2324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPriceConsistency()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:37 IST" name="verifyPriceConsistency" finished-at="2026-04-23T21:17:40 IST" duration-ms="2515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceConsistency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSelectionTest@3f1d2e23]" started-at="2026-04-23T21:17:40 IST" name="tearDown" finished-at="2026-04-23T21:17:40 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightSelectionTest -->
+    </test> <!-- Flight Selection Tests -->
+    <test started-at="2026-04-23T21:17:38 IST" name="Purchase Tests" finished-at="2026-04-23T21:17:46 IST" duration-ms="7708">
+      <class name="tests.PurchaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PurchaseTest@21d03963]" started-at="2026-04-23T21:17:38 IST" name="setUp" finished-at="2026-04-23T21:17:40 IST" duration-ms="1847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPurchaseFlow()[pri:0, instance:tests.PurchaseTest@21d03963]" started-at="2026-04-23T21:17:40 IST" name="verifyPurchaseFlow" finished-at="2026-04-23T21:17:45 IST" duration-ms="5580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PurchaseTest@21d03963]" started-at="2026-04-23T21:17:45 IST" name="tearDown" finished-at="2026-04-23T21:17:46 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PurchaseTest -->
+    </test> <!-- Purchase Tests -->
+    <test started-at="2026-04-23T21:17:40 IST" name="Route Search Tests" finished-at="2026-04-23T21:17:57 IST" duration-ms="17023">
+      <class name="tests.DifferentRouteSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:40 IST" name="setUp" finished-at="2026-04-23T21:17:42 IST" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFlightCountConsistency()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:42 IST" name="verifyFlightCountConsistency" finished-at="2026-04-23T21:17:45 IST" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightCountConsistency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:45 IST" name="tearDown" finished-at="2026-04-23T21:17:45 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:45 IST" name="setUp" finished-at="2026-04-23T21:17:48 IST" duration-ms="2482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyResultsForDifferentRoutes(java.lang.String,java.lang.String)[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:48 IST" name="verifyResultsForDifferentRoutes" data-provider="routes" finished-at="2026-04-23T21:17:49 IST" duration-ms="922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsForDifferentRoutes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:49 IST" name="tearDown" finished-at="2026-04-23T21:17:49 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:49 IST" name="setUp" finished-at="2026-04-23T21:17:52 IST" duration-ms="2856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyResultsForDifferentRoutes(java.lang.String,java.lang.String)[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:52 IST" name="verifyResultsForDifferentRoutes" data-provider="routes" finished-at="2026-04-23T21:17:53 IST" duration-ms="1162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsForDifferentRoutes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:53 IST" name="tearDown" finished-at="2026-04-23T21:17:54 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:54 IST" name="setUp" finished-at="2026-04-23T21:17:56 IST" duration-ms="2292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyResultsForDifferentRoutes(java.lang.String,java.lang.String)[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:56 IST" name="verifyResultsForDifferentRoutes" data-provider="routes" finished-at="2026-04-23T21:17:57 IST" duration-ms="841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Diego]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Berlin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsForDifferentRoutes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DifferentRouteSearchTest@c667f46]" started-at="2026-04-23T21:17:57 IST" name="tearDown" finished-at="2026-04-23T21:17:57 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DifferentRouteSearchTest -->
+    </test> <!-- Route Search Tests -->
+    <test started-at="2026-04-23T21:17:46 IST" name="Form Validation Tests" finished-at="2026-04-23T21:18:03 IST" duration-ms="17813">
+      <class name="tests.FormValidationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:17:46 IST" name="setUp" finished-at="2026-04-23T21:17:48 IST" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyNameBehavior()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:17:48 IST" name="verifyEmptyNameBehavior" finished-at="2026-04-23T21:17:52 IST" duration-ms="4427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyNameBehavior -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:17:52 IST" name="tearDown" finished-at="2026-04-23T21:17:52 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:17:52 IST" name="setUp" finished-at="2026-04-23T21:17:54 IST" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidCardValidation()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:17:54 IST" name="verifyInvalidCardValidation" finished-at="2026-04-23T21:17:58 IST" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCardValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:17:58 IST" name="tearDown" finished-at="2026-04-23T21:17:58 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:17:58 IST" name="setUp" finished-at="2026-04-23T21:18:00 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMandatoryFieldValidation()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:18:00 IST" name="verifyMandatoryFieldValidation" finished-at="2026-04-23T21:18:03 IST" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationTest@456d6c1e]" started-at="2026-04-23T21:18:03 IST" name="tearDown" finished-at="2026-04-23T21:18:03 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FormValidationTest -->
+    </test> <!-- Form Validation Tests -->
+  </suite> <!-- FlightBookingSuite -->
+</testng-results>
