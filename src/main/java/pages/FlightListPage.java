@@ -15,8 +15,8 @@ public class FlightListPage extends BasePage {
     private By departure=By.xpath("//table//tr/td[4]");
     private By arrival=By.xpath("//table//tr/td[5]");
     
-    private By firstRowPrice = By.xpath("(//table[@class='table']//tbody/tr)[1]/td[6]");
-    private By firstRowChooseBtn = By.xpath("(//table[@class='table']//tbody/tr)[1]/td[1]/input");
+    private By firstRowPrice=By.xpath("(//table[@class='table']//tbody/tr)[1]/td[6]");
+    private By firstRowChooseBtn=By.xpath("(//table[@class='table']//tbody/tr)[1]/td[1]/input");
     
     public FlightListPage(WebDriver driver) {
         super(driver);
